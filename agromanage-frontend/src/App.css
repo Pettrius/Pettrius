@@ -1,0 +1,218 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* navbar */
+
+.title-navbar {
+  font-size: 22px;
+  font-weight: bolder;
+  color: white;
+  margin-right: 10%;
+}
+
+.opt-navbar {
+  color: white;
+}
+
+/* hero section */
+
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(255, 255, 255, 0.2)), url("/src/assets/img-hero-section.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  color: white;
+  padding-top: 75px;
+  text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.6);
+}
+
+.btn-descubra {
+  font-size: 25px;
+  margin-top: 10%;
+  margin-bottom: 0%;
+}
+
+/* about section */
+
+.img-about {
+  margin-top: 75px;
+  width: 70%;
+  height: 450px;
+  object-fit: cover;
+  object-position: center center;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  margin-left: 15%;
+}
+
+.title-about {
+  margin-bottom: 5%;
+  background-color: #30b15c;
+  color: white;
+  padding: 0.3rem 1rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+}
+
+/* culture-section*/
+
+.culture-title {
+  margin-top: 75px;
+  margin-bottom: 2%;
+  background-color: #30b15c;
+  color: rgb(255, 255, 255);
+  padding: 0.3rem 1rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+}
+
+/* help-section */
+
+.how-title {
+  margin-top: 60px;
+  padding-bottom: 40px;
+}
+
+/* benefits-section */
+
+.benefits-title {
+  padding-bottom: 3%;
+}
+
+/* plans-section*/
+
+.plan-card {
+  min-height: 350px;
+  padding: 2rem;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: transform 0.2s ease;
+}
+
+.plan-card:hover {
+  transform: translateY(-5px);
+}
+
+.plan-featured {
+  border: 2px solid #198754;
+  background-color: #e9f8ee;
+}
+
+.plan-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.plan-price {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.plan-button {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  padding: 0.75rem 1.5rem;
+}
+
+.title-plans {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+/* Login e Cadastro */
+
+.login-page,
+.register-page {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  padding-top: 60px;
+}
+
+.login-title,
+.register-title {
+  color: #198754;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+/* Dashboard */
+
+.dashboard-page {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  padding-top: 60px;
+}
+
+.dashboard-welcome {
+  color: #198754;
+  font-weight: 600;
+}
+
+.dashboard-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+.dashboard-stat-card {
+  transition: transform 0.2s ease;
+}
+
+.dashboard-stat-card:hover {
+  transform: translateY(-3px);
+}
+
+/* Funcionários */
+
+.employees-page {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  padding-top: 60px;
+}
+
+.employees-title {
+  color: #198754;
+  font-weight: 600;
+}
+
+.employee-list {
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.employee-item {
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.employee-item:hover {
+  background-color: #f8f9fa;
+}
+
+.employee-item.selected {
+  background-color: #e9f8ee;
+  border-left: 4px solid #198754 !important;
+}
+
+.employee-actions {
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.employee-item:hover .employee-actions {
+  opacity: 1;
+}
